@@ -8,3 +8,4 @@ Plataforma/build.zip filter=lfs diff=lfs merge=lfs -text
 Plataforma/build/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text
 *.bc filter=lfs diff=lfs merge=lfs -text
 Plataforma/Temp/StagingArea/Data/Native/build.bc filter=lfs diff=lfs merge=lfs -text
+Plataforma/build/Libraries/libiPhone-lib.a[[:space:]] filter=lfs diff=lfs merge=lfs -text
