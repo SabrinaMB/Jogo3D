@@ -170,6 +170,7 @@ public class PlayerController : MonoBehaviour
             //other.gameObject.GetComponent<Renderer>().enabled = false;
             //}
             // Destroy(other.gameObject);
+            other.gameObject.transform.position = new Vector3(-100,-100,0);
             AudioSource.PlayClipAtPoint(coin, this.gameObject.transform.position);
             
         }
